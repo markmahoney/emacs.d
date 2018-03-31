@@ -4,8 +4,8 @@ This is me trying to finally get my Emacs life ironed out, compartmentalized, an
 
 ## Packages
 
-I've spent a little bit of time making package bootstrapping automatic across machines, and not letting package.el to crap all over my files. This maybe be of some interest to others! And, conversely, possibly not!
+I've spent a little bit of time making package bootstrapping automatic across machines, and not letting package.el crap all over my files. This maybe be of interest to others! And, conversely, it may not!
 
 ## Modes
 
-Mode setups are a bit chaotic at the moment, particularly in the JS realm; I'm trying to get the modern React-based stack to be nice and adhere to per-project standards. In some cases indentation seems to deviate a bit from expectations in RJSX mode, but if you have Prettier configured it'll do the right thing on save.
+Mode setups are a bit chaotic at the moment, particularly in the JS realm; I'm trying to get the modern React-based stack to be nice and adhere to per-project standards. In some cases indentation seems to deviate a bit from expectations in RJSX mode, but if you have Prettier configured it'll do the right thing on save (though I don't have a good non-hardcoded, per-project way to configure that yet).
