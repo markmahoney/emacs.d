@@ -8,4 +8,4 @@ I've spent a little bit of time making package bootstrapping automatic across ma
 
 ## Modes
 
-Mode setups are a bit chaotic at the moment, particularly in the JS realm; I'm trying to get the modern React-based stack to be nice and adhere to per-project standards. In some cases indentation seems to deviate a bit from expectations in RJSX mode, but if you have Prettier configured it'll do the right thing on save (though I don't have a good non-hardcoded, per-project way to configure that yet).
+Mode setups are a bit chaotic at the moment, particularly in the JS realm; I'm trying to get the modern React-based stack to be nice and adhere to per-project standards. In some cases RJSX mode JSX/ES6 indentation seems to deviate from standard expectations, but if you have Prettier configured it'll do the right thing on save (though I don't have a good non-hardcoded, per-project way to configure Prettier yet).
