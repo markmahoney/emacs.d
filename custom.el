@@ -12,9 +12,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(flycheck-javascript-flow-args nil)
+ '(js-indent-level 2)
  '(package-selected-packages
    (quote
-    (magit add-node-modules-path prettier-js flycheck-flow rjsx-mode scala-mode yaml-mode web-mode scala-mode2 paredit less-css-mode js2-mode erlang color-theme-modern clojure-mode))))
+    (go-mode magit add-node-modules-path prettier-js flycheck-flow rjsx-mode scala-mode yaml-mode web-mode scala-mode2 paredit less-css-mode js2-mode erlang color-theme-modern clojure-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
