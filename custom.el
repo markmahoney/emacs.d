@@ -14,7 +14,7 @@
  '(flycheck-javascript-flow-args nil)
  '(package-selected-packages
    (quote
-    (magit add-node-modules-path prettier-js flycheck-flow rjsx-mode scala-mode yaml-mode web-mode scala-mode2 paredit less-css-mode js2-mode erlang color-theme-modern clojure-mode))))
+    (dumb-jump use-package lua-mode magit add-node-modules-path prettier-js flycheck-flow rjsx-mode scala-mode yaml-mode web-mode scala-mode2 paredit less-css-mode js2-mode erlang color-theme-modern clojure-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

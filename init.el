@@ -15,6 +15,7 @@
  'clojure-mode
  'color-theme-modern
  'css-mode
+ 'dumb-jump
  'erlang
  'exec-path-from-shell
  'flycheck
@@ -28,6 +29,7 @@
  'paredit
  'prettier-js
  'scala-mode
+ 'use-package
  'web-mode
  'yaml-mode)
 

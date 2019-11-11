@@ -11,7 +11,14 @@
 (require 'flycheck-flow)
 (require 'prettier-js)
 (require 'rjsx-mode)
+(require 'use-package)
 (require 'web-mode)
+
+(use-package dumb-jump
+  :bind (("M-n g" . dumb-jump-go)
+         ("M-n b" . dumb-jump-back))
+  :config (setq dumb-jump-selector 'ivy)
+  :ensure)
 
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
