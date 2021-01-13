@@ -15,8 +15,10 @@
 (require 'web-mode)
 
 (use-package dumb-jump
-  :bind (("M-n g" . dumb-jump-go)
-         ("M-n b" . dumb-jump-back))
+  :bind (("M-n o" . dumb-jump-go)
+         ("M-n i" . dumb-jump-quick-look)
+         ("M-n b" . dumb-jump-back)
+         ("M-n p" . dumb-jump-go-prompt))
   :config (setq dumb-jump-selector 'ivy)
   :ensure)
 
@@ -60,5 +62,12 @@
 ;; prettier-js config (there has to be a better way to do this)
 (setq prettier-js-args '(
   "--single-quote" "--trailing-comma" "all" "--no-semi"))
+
+;; glsl mode
+(autoload 'glsl-mode "glsl-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.glsl\\'" . glsl-mode))
+(add-to-list 'auto-mode-alist '("\\.vert\\'" . glsl-mode))
+(add-to-list 'auto-mode-alist '("\\.frag\\'" . glsl-mode))
+(add-to-list 'auto-mode-alist '("\\.geom\\'" . glsl-mode))
 
 ;;; modes.el ends here

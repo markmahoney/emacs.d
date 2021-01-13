@@ -20,6 +20,7 @@
  'exec-path-from-shell
  'flycheck
  'flycheck-flow
+ 'glsl-mode
  'js2-mode
  'json-mode
  'magit
@@ -29,6 +30,7 @@
  'paredit
  'prettier-js
  'scala-mode
+ 'typescript-mode
  'use-package
  'web-mode
  'yaml-mode)
