@@ -12,6 +12,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(flycheck-javascript-flow-args nil)
+ '(js-indent-level 2)
  '(package-selected-packages
    '(typescript-mode glsl-mode dumb-jump use-package lua-mode magit add-node-modules-path prettier-js flycheck-flow rjsx-mode scala-mode yaml-mode web-mode scala-mode2 paredit less-css-mode js2-mode erlang color-theme-modern clojure-mode)))
 (custom-set-faces
